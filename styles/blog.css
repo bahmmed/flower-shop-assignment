@@ -25,7 +25,7 @@ body {
 
 /* banner related styles info */
 .banner{
-    padding: 30px 30px 30px 240px;
+    padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
