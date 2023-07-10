@@ -1,6 +1,51 @@
 /* common shared styles info */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 40px;
+
+}
+
+/* header related style info */
+
+.header-main{
+        background-color: rgba(229, 84, 115, 0.10);
+}
 
 /* nav related styles info */
+
+/* banner related styles info */
+.banner{
+    padding: 30px 30px 30px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner .banner-desc{
+    color:rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    }
+.banner .profile-pic{
+    width: 635px;
+    height: 800px;
+
+}
 
 /* body related styles info */
 
