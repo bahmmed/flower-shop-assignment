@@ -113,12 +113,20 @@ body {
 }
 .footer-sec{
     background: #111010;
-    width: 1922px;
+    /* width: 1922px; */
     height: 449px;
-    flex-shrink: 0;
+    align-items: center;
 }
 .footer-caption{
-    color: white;
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    align-items: center;
+}
+.footer-shop{
+    color:white;
+    font-size: 48px;
+    font-weight: 800;
 }
 .footer-message{
     color: white;
