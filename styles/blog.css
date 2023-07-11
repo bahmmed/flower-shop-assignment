@@ -31,7 +31,7 @@ body {
     justify-content: space-between;
 
 }
-
+/* 
 .banner-img {
     background-image: url(../images/pngwing\ 10.png);
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body {
     height: 791px;
     /* margin-right: 1000px; */
     /* float: right; */
-}
+} */
 
 .banner-content {
     max-width: 800px;
@@ -65,7 +65,7 @@ body {
 }
 
 
-/* section related styles info */
+
 
 .featured-title {
     color: #272727;
@@ -193,6 +193,12 @@ body {
     color: #E55473;
 }
 
+.hot-container{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
 .hot-container p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -201,6 +207,17 @@ body {
     line-height: 30px;
 }
 
+
+.hot-container button{
+    margin-top: 15px;
+    
+} 
+
+.intagram-sec{
+    /* margin: 10px; */
+    width: 1255px;
+    height: 449px;
+}
 
 .instagram-title {
     color: #272727;
@@ -212,20 +229,55 @@ body {
 
 
 .instagram-img {
-    margin: 80px;
-    padding: 50px;
+    /* margin:  10px 20px 100px 20px;   */
+    padding: 10px;
     display: flex;
-    width: 342px;
-    height: 396px;
+    /* width: 1255px;
+    height:449px; */
+
+}
+
+.instagram-img1 img{
+    margin-right:10px;
+    margin-left: 62px;
+    width: 265px;
+    height: 300px;
+
+}
+
+
+
+.instagram-img2 img{
+    margin-right:10px;
+    width: 265px;
+    height: 300px;
+
+
+}
+
+.instagram-img3 img{
+    margin-right:10px;
+    width: 265px;
+    height: 300px;
+
+
+}
+
+
+.instagram-img4 img{
+    margin-right:10px;
+    width: 265px;
+    height: 300px;
 
 }
 
 .bg-pic {
+    margin-top: 200px;    
     background-image: url(../images/Rectangle\ 9.png);
     background-repeat: no-repeat;
-    width: 1440px;
+    width: 1255px;
     height: 449px;
-    border-radius: 8px;
+    border-radius: 4px;
 
 }
 
@@ -248,15 +300,37 @@ body {
     border: 0px solid #FFF;
     border-radius: 4px;
 }
+ 
+.extra-flower{
+    background-color:#F6F6F6;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+} 
 
+.extra-flower-info{
+    width: 500px;
+}
+
+
+.extra-flower h4{
+    color: rgb(255, 0, 25);
+
+} 
+
+#get{
+    color: rgb(0, 50, 231);
+}
 .footer-sec {
     background: #111010;
  /* width: 1922px; */
-    height: 449px;
+    height: 359px;
     align-items: center;
+    padding: 15px;
 }
 
 .footer-caption {
+    margin-top: 60px;
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
@@ -277,7 +351,7 @@ body {
 
 .footer-copy{
     color: rgba(255, 255, 255, 0.40);
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
 
 }
