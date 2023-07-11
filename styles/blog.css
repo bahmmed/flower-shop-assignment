@@ -11,7 +11,7 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    padding: 18px 40px;
+    padding: 16px 40px;
 
 }
 
@@ -25,14 +25,25 @@ body {
 
 /* banner related styles info */
 .banner {
-    padding: 10px 10px 0px 110px;
+    padding: 10px 10px 0px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.banner-img {
+    background-image: url(../images/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    width: 635px;
+    height: 791px;
+    /* margin-right: 1000px; */
+    /* float: right; */
 }
 
 .banner-content {
     max-width: 800px;
+    /* float: left; */
 }
 
 .banner .banner-title {
@@ -41,22 +52,22 @@ body {
     font-weight: 800;
 }
 
-.banner .banner-desc {
+.para-fact {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-}
-
-.banner .profile-pic {
-    width: 635px;
-    height: 800px;
 
 }
+
+.para_fact_align {
+    text-align: center;
+}
+
 
 /* section related styles info */
 
-.section-title {
+.featured-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -75,60 +86,200 @@ body {
 
 }
 
-.rectangler {
-    width: 150px;
-    height: 300px;
+.featured-img {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+
 }
 
-.offer-support{
-    margin: 0px auto;
-    padding: 200px;  
-    max-width: 1440px;  
+.featured-img1 {
+    width: 350px;
+    height: 400px;
+    margin-left: 15px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-img1 img {
+    width: 304px;
+    height: 385px;
+    margin: 14px;
+}
+
+
+.featured-img p {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -5px;
+}
+
+.featured-img2 {
+    width: 350px;
+    height: 400px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.featured-img2 img {
+    width: 304px;
+    height: 385px;
+    margin: 14px;
+}
+
+
+.featured-img3 {
+    width: 350px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured-img3 img {
+    width: 304px;
+    height: 385px;
+    margin: 14px;
+
+}
+
+.offer-support {
+    margin: 80px;
+    padding: 50px;
+    max-width: 1440px;
     border-radius: 8px;
+    height: 200px;
     background: rgba(39, 39, 39, 0.05);
     align-items: center;
-    /* justify-content: space-between; */
 }
-.offer-container{
+
+.offer-container {
     display: flex;
     justify-content: space-around;
 }
-.offer-container-info{
-    display: block;
-    align-items: center;
+
+.offer-container-info {
+    display: flex;
+
 }
+
+.offer-container-info figure {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
 /*.offer-info{
     align-items: center;
 } */
-.hot-deal{
+.hot-deal {
     margin-top: 20px;
     display: flex;
-    padding: 200px;
+    padding: 90px;
     justify-content: space-between;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
 }
-.bg-pic{
-    background-repeat: no-repeat;
+
+#off {
+    color: #E55473;
 }
-.footer-sec{
+
+.hot-container p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.instagram-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+
+.instagram-img {
+    margin: 80px;
+    padding: 50px;
+    display: flex;
+    width: 342px;
+    height: 396px;
+
+}
+
+.bg-pic {
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+
+}
+
+.get-head {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.form-control {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 50px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 0px solid #FFF;
+    border-radius: 4px;
+}
+
+.footer-sec {
     background: #111010;
-    /* width: 1922px; */
+ /* width: 1922px; */
     height: 449px;
     align-items: center;
 }
-.footer-caption{
+
+.footer-caption {
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
     align-items: center;
 }
-.footer-shop{
-    color:white;
+
+.footer-shop {
+    color: white;
     font-size: 48px;
     font-weight: 800;
 }
-.footer-message{
-    color: white;
+
+.footer-message {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 18px;
+    font-weight: 400;
 }
+
+.footer-copy{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 /* footer related style info */
